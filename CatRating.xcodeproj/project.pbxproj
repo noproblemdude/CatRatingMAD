@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D7E158682B527EDF0028B5A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E158672B527EDF0028B5A0 /* AppDelegate.swift */; };
 		D7E1586A2B527EDF0028B5A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E158692B527EDF0028B5A0 /* SceneDelegate.swift */; };
-		D7E1586C2B527EDF0028B5A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1586B2B527EDF0028B5A0 /* ViewController.swift */; };
 		D7E1586F2B527EDF0028B5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E1586D2B527EDF0028B5A0 /* Main.storyboard */; };
 		D7E158722B527EDF0028B5A0 /* CatRating.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7E158702B527EDF0028B5A0 /* CatRating.xcdatamodeld */; };
 		D7E158742B527EE10028B5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E158732B527EE10028B5A0 /* Assets.xcassets */; };
@@ -17,6 +16,13 @@
 		D7E158822B527EE10028B5A0 /* CatRatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E158812B527EE10028B5A0 /* CatRatingTests.swift */; };
 		D7E1588C2B527EE10028B5A0 /* CatRatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1588B2B527EE10028B5A0 /* CatRatingUITests.swift */; };
 		D7E1588E2B527EE10028B5A0 /* CatRatingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1588D2B527EE10028B5A0 /* CatRatingUITestsLaunchTests.swift */; };
+		D7E1589B2B5281FA0028B5A0 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1589A2B5281FA0028B5A0 /* HomePageViewController.swift */; };
+		D7E1589D2B52820F0028B5A0 /* RatingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1589C2B52820F0028B5A0 /* RatingPageViewController.swift */; };
+		D7E1589F2B5282220028B5A0 /* RatingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1589E2B5282220028B5A0 /* RatingListViewController.swift */; };
+		D7E158A12B5282450028B5A0 /* StoredRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E158A02B5282450028B5A0 /* StoredRatingViewController.swift */; };
+		D7E158A32B5282600028B5A0 /* CinematicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E158A22B5282600028B5A0 /* CinematicViewController.swift */; };
+		D7E158A52B528DAB0028B5A0 /* networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E158A42B528DAB0028B5A0 /* networking.swift */; };
+		D7E158B02B52A8990028B5A0 /* dataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E158AF2B52A8990028B5A0 /* dataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		D7E158642B527EDF0028B5A0 /* CatRating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatRating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E158672B527EDF0028B5A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E158692B527EDF0028B5A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7E1586B2B527EDF0028B5A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7E1586E2B527EDF0028B5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7E158712B527EDF0028B5A0 /* CatRating.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatRating.xcdatamodel; sourceTree = "<group>"; };
 		D7E158732B527EE10028B5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		D7E158872B527EE10028B5A0 /* CatRatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatRatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E1588B2B527EE10028B5A0 /* CatRatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRatingUITests.swift; sourceTree = "<group>"; };
 		D7E1588D2B527EE10028B5A0 /* CatRatingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRatingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7E1589A2B5281FA0028B5A0 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		D7E1589C2B52820F0028B5A0 /* RatingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingPageViewController.swift; sourceTree = "<group>"; };
+		D7E1589E2B5282220028B5A0 /* RatingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingListViewController.swift; sourceTree = "<group>"; };
+		D7E158A02B5282450028B5A0 /* StoredRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredRatingViewController.swift; sourceTree = "<group>"; };
+		D7E158A22B5282600028B5A0 /* CinematicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinematicViewController.swift; sourceTree = "<group>"; };
+		D7E158A42B528DAB0028B5A0 /* networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networking.swift; sourceTree = "<group>"; };
+		D7E158AF2B52A8990028B5A0 /* dataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +115,18 @@
 			children = (
 				D7E158672B527EDF0028B5A0 /* AppDelegate.swift */,
 				D7E158692B527EDF0028B5A0 /* SceneDelegate.swift */,
-				D7E1586B2B527EDF0028B5A0 /* ViewController.swift */,
 				D7E1586D2B527EDF0028B5A0 /* Main.storyboard */,
 				D7E158732B527EE10028B5A0 /* Assets.xcassets */,
 				D7E158752B527EE10028B5A0 /* LaunchScreen.storyboard */,
 				D7E158782B527EE10028B5A0 /* Info.plist */,
 				D7E158702B527EDF0028B5A0 /* CatRating.xcdatamodeld */,
+				D7E1589A2B5281FA0028B5A0 /* HomePageViewController.swift */,
+				D7E1589C2B52820F0028B5A0 /* RatingPageViewController.swift */,
+				D7E1589E2B5282220028B5A0 /* RatingListViewController.swift */,
+				D7E158A02B5282450028B5A0 /* StoredRatingViewController.swift */,
+				D7E158A22B5282600028B5A0 /* CinematicViewController.swift */,
+				D7E158A42B528DAB0028B5A0 /* networking.swift */,
+				D7E158AF2B52A8990028B5A0 /* dataManager.swift */,
 			);
 			path = CatRating;
 			sourceTree = "<group>";
@@ -261,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E1586C2B527EDF0028B5A0 /* ViewController.swift in Sources */,
+				D7E1589D2B52820F0028B5A0 /* RatingPageViewController.swift in Sources */,
+				D7E158B02B52A8990028B5A0 /* dataManager.swift in Sources */,
+				D7E1589F2B5282220028B5A0 /* RatingListViewController.swift in Sources */,
+				D7E1589B2B5281FA0028B5A0 /* HomePageViewController.swift in Sources */,
 				D7E158682B527EDF0028B5A0 /* AppDelegate.swift in Sources */,
+				D7E158A32B5282600028B5A0 /* CinematicViewController.swift in Sources */,
 				D7E1586A2B527EDF0028B5A0 /* SceneDelegate.swift in Sources */,
+				D7E158A12B5282450028B5A0 /* StoredRatingViewController.swift in Sources */,
+				D7E158A52B528DAB0028B5A0 /* networking.swift in Sources */,
 				D7E158722B527EDF0028B5A0 /* CatRating.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

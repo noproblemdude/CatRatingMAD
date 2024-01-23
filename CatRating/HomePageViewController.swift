@@ -8,7 +8,19 @@
 import UIKit
 
 class HomePageViewController: UIViewController {
-
+    
+    
+    @IBAction func rateCatsButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "RatingSegue", sender: self)
+    }
+    @IBAction func ratedCatsButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "RatingListSegue", sender: self)
+        
+    }
+    @IBAction func cinematicModeButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "CinematicSegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -6,16 +6,50 @@
 //
 
 import UIKit
+import CoreData
 
 class RatingPageViewController: UIViewController {
-
+    
+    let netwk = networking()
+    let dataMngr = dataManager()
+    
+    @IBAction func newImageButton(_ sender: Any) {
+        loadPicture()
+    }
+    @IBAction func rateCatButton(_ sender: Any) {
+        dataMngr.saveRating(name: nameField.text!,comment: commentField.text!,rating: Int(ratingField.text!)!,image: self.imageView.image!)
+    }
+    @IBOutlet weak var commentField: UITextField!
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var ratingField: UITextField!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    var cinematicImage:UIImage?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        if(cinematicImage == nil){
+            loadPicture()
+        }else{
+            self.imageView.image = cinematicImage!
+        }
+        
+        
     }
     
-
+    func loadPicture(){
+        netwk.getCatPic(CompletionHandler: comphand)
+    }
+    
+    func comphand(data: Data?){
+        
+        DispatchQueue.main.sync{
+            self.imageView.image = UIImage(data: data!)
+        }
+    }
+    
+    
     /*
     // MARK: - Navigation
 
